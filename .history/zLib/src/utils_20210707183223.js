@@ -80,7 +80,6 @@ export const getCurrentTime = (fmt, date) => {
 //   }
 // }
 export const timeDelayFn = ((win) => {
-    console.log(`111:`,111);
   const requestAnimationFrame = win.requestAnimationFrame ||
     win.webkitRequestAnimationFrame ||
     win.mozRequestAnimationFrame ||
